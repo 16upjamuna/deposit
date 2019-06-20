@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="voter" max_length="40" name="x_340024_voting_sy_voter" type="collection">
+        <element label="age" max_length="40" name="age" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Party" max_length="40" name="party" type="string">
+            <choice>
+                <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
+                <element inactive_on_update="false" label="Bjp" value="u_bjp"/>
+                <element inactive_on_update="false" label="Tdp" value="u_tdp"/>
+                <element inactive_on_update="false" label="Trs" value="u_trs"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="constinency" max_length="40" name="u_constinency" reference="x_340024_voting_sy_addparty" type="string"/>
+        <element label="voter id" max_length="40" name="u_id" type="integer"/>
+        <element label="mobilenumber" max_length="40" name="u_mobilenumber" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="party" mandatory="true" max_length="40" name="u_party" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Trs" sequence="0" value="trs"/>
+                <element inactive_on_update="false" label="Bjp" sequence="1" value="bjp"/>
+                <element inactive_on_update="false" label="Tdp" sequence="2" value="tdp"/>
+                <element inactive_on_update="false" label="Ysrcp" sequence="3" value="ysrcp"/>
+            </choice>
+        </element>
+        <element label="password" max_length="40" name="u_password" type="integer"/>
+        <element label="year" max_length="40" name="u_year" type="integer"/>
+    </element>
+</database>

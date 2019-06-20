@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="addparty" language="en" table="x_340024_voting_sy_addparty">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>addparty</label>
+            <language>en</language>
+            <name>x_340024_voting_sy_addparty</name>
+            <plural>addparties</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-19 08:55:43</sys_created_on>
+            <sys_id>b4d44c8bdb4e730084ed2946489619a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>addparty</sys_name>
+            <sys_package display_value="voting system" source="x_340024_voting_sy">639d1ffedbca730084ed294648961959</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="voting system">639d1ffedbca730084ed294648961959</sys_scope>
+            <sys_update_name>sys_documentation_x_340024_voting_sy_addparty__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-19 08:55:43</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

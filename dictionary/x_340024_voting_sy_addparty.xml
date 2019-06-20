@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="addparty" max_length="40" name="x_340024_voting_sy_addparty" type="collection"/>
+</database>

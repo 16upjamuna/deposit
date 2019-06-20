@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="election" max_length="40" name="x_340024_voting_sy_election" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="candidatename" max_length="40" name="u_candidatename" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="constinency" max_length="40" name="u_constinency" type="string"/>
+        <element label="id" max_length="40" name="u_id" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="partyname" max_length="40" name="u_partyname" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="state" max_length="40" name="u_state" type="string"/>
+    </element>
+</database>
